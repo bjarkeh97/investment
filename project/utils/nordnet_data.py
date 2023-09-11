@@ -19,6 +19,6 @@ def get_csv(path: str) -> pd.Series:
     return avg_prices
 
 if __name__ == "__main__":
-    test_path = "C:/Users/Bruger/Code/quantitative_investment/data_nordnet/commodities/BRENTOIL.csv"
+    test_path = "C:/Users/Bruger/Code/quantitative_investment/data_nordnet/crypto/BTCXBT.csv"
     df = get_csv(path=test_path)
     print(df)
